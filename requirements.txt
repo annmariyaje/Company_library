@@ -1,0 +1,5 @@
+streamlit
+pandas
+openpyxl
+resend
+python-dotenv
