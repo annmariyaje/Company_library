@@ -805,21 +805,10 @@ with st.sidebar:
 
     st.divider()
 
-    if st.button(
-        "🔄 Refresh",
-        use_container_width=True,
-        key="manual_refresh",
-        help="Reload the page with the latest data"
-    ):
-
-        st.session_state.books_version += 1
-        st.session_state.employees_version += 1
-        st.rerun()
-
-    st.divider()
+  
 
     st.caption("Library Management System")
-    st.caption("Excel • SQLite • SharePoint")
+   
 
 
 # =========================================================
